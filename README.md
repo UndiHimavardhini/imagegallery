@@ -15,7 +15,7 @@ HTML • CSS • JavaScript
 
 ###  Live Demo
 
-Add your GitHub Pages link here
+https://undihimavardhini.github.io/imagegallery/
 
 ###  Author
 
