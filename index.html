@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>✨ Creative Image Gallery</h1>
+  <p>Tap, swipe or use arrows to explore</p>
+</header>
+
+<section class="gallery">
+  <img src="https://picsum.photos/id/1011/800/600" alt="Nature">
+  <img src="https://picsum.photos/id/1015/800/600" alt="Mountain">
+  <img src="https://picsum.photos/id/1025/800/600" alt="Dog">
+  <img src="https://picsum.photos/id/1035/800/600" alt="River">
+  <img src="https://picsum.photos/id/1045/800/600" alt="Forest">
+  <img src="https://picsum.photos/id/1055/800/600" alt="Sea">
+</section>
+
+<!-- Modal -->
+<div class="modal" id="modal">
+  <span class="close">&times;</span>
+
+  <button class="nav prev">&#10094;</button>
+  <img class="modal-img" id="modalImg">
+  <button class="nav next">&#10095;</button>
+
+  <div class="info">
+    <span id="counter"></span>
+    <span id="caption"></span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
